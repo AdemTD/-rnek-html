@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giriş</title>
+    <div class="outer-box">
+    <div class="login-box">
+      <h4 class="login-text">Giriş</h4>
+      <centter>
+      <input placeholder="Kullanıcı Adı">
+      <input placeholder="Şifre">
+      </centter>
+      <div class="arkaplan">
+        <h1>ahmet</h1>
+      </div>
+    </div>
+  </div>
+<small></small>
+<div class="unut">
+  <a href="#">Şifremi Unuttum</a>
+</div>
+<div class="wrapper">
+  <a href="#"><span>Giriş</span></a>
+</div>
+<body>
+  <head>
+    <style>
+            .wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18.10px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+.login-box {
+    display: block;
+    margin: auto;
+    padding: 60px 10px;
+    text-align: center;
+    box-shadow: 0 0 400px rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: 90p;   
+}
+.unut {
+  position: absolute;
+  top: 60%; 
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.b{
+  font-size: 28px;
+
+}
+.arkaplan {
+  background-image: url(C:/Users/ademt/OneDrive/Masaüstü/Adsız%20tasarım_page-0001.jpg);
+}
+    </style>
+  </head>
+</body>
